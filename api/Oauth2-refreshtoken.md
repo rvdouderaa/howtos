@@ -90,7 +90,7 @@ Add-Type -AssemblyName System.Web
 #openid:  Allows your app to sign the user in and receive an app-specific identifier for the user
 #profile: Allows your app access to all other basic information such as name, preferred username, object ID, and others
 #User.Read: Allows your app to read the current's user's profile
-$scopes = "offline_access+openid+profile+User.
+$scopes = "offline_access+openid+profile+User.Read"
 ```
 
 Set the redirect URL to the URL set in the App registration (needs to be the same)
