@@ -110,7 +110,6 @@ $credential = Get-Credential -Message "Enter the client ID and client secret"
 Execute the function:
 
 ```powershell
-$credential = Get-Credential -Message "Enter the client ID and client secret"
 Get-CurrentUserProfile $credential -scopes $scopes -redirectUrl $redirectURL -displayTokens
 ```
 
